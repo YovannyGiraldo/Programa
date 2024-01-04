@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RECIBOS</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="recibos">
+        <h1 class="tit_rec">RECIBOS</h1>
+        <div class="opc_1">
+            <form>
+                <p>
+                    <input type="text" id="campo_prod" placeholder="Nombre">
+                </p>
+                <p>
+                    <input type="submit" value="Seleccione">
+                </p>
+                <p>
+                    <input type="date"  >
+                </p>
+                <div class="lis_recibo">
+                    <table style="width: 200%">
+                        <tr>
+                            <th>Comprador</th>
+                            <th>Benito Perez</th>
+                            <th>Teléfono</th>
+                            <th colspan="3">3256586584</th>
+                        </tr>
+                        <tr>
+                           <td>Fecha</td> 
+                           <td>Referencia</td> 
+                           <td>Producto</td> 
+                           <td>Cantidad</td> 
+                           <td>Precio</td> 
+                           <td>Total</td> 
+                        </tr>
+                        <tr>
+                            <td>15/01/2023</td> 
+                            <td>SG654215D</td> 
+                            <td>Samsumg Galaxy A32</td> 
+                            <td>1</td> 
+                            <td>800.000</td> 
+                            <td>800.000</td> 
+                         </tr>
+                         <tr>
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
+                         </tr>    
+                         <tr>
+                            <td colspan="3"></td>
+                            <td colspan="2">Valor total</td> 
+                            <td>800.000</td> 
+                         </tr> 
+                    </table>
+                </div>
+            </form> 
+        </div>
+        <button type="submit">
+            IMPRIMIR
+        </button> 
+        <button type="submit">
+            ENVIAR
+        </button> 
+        <button type="submit">
+            SALIR
+        </button> 
+</body>
+</html>

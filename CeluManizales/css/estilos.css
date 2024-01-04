@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    width: 650px;
+    background: #9AD2FB;
+    padding: 60px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+    text-align: center;
+
+}
+
+.titulo h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.titulo h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.titulo1 h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cuadro {
+    width: 50%;
+    background-color: #eff8ff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    text-align: center;
+    
+    
+}
+
+.boton {
+    width: 50%;
+    background-color: #eff8ff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    font-family: 'Calibri';
+    font-size: 15px;
+}
+
+.titulo p {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.opciones {
+    width: 30%;
+    background-color: #eff8ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 15px;
+    font-family: "calibri";
+}
+
+.content{
+    width: 650px;
+    background: #9AD2FB;
+    padding: 80px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+}
+
+.pago{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.columnas form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columnas form button,
+.columnas form input,
+.columnas form textarea {
+    width: 90%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.columnas form button {
+    background: #9BA5B7;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: medium;
+}
+
+.tit_invent{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+
+.opc form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.inventario{
+    width: 1200px;
+    background: #9AD2FB;
+    padding: 80px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+}
+
+.opc form button,
+.opc form input,
+.opc form textarea {
+    width: 95%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.opc form button {
+    background: #9BA5B7;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: medium;
+}
+
+.inventario button {
+    width: 15%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+tr:nth-of-type(1) > th{
+    background-color: white;
+}
+
+tr:nth-of-type(2) > td,
+tr:nth-of-type(3) > td,
+tr:nth-of-type(4) > td,
+tr:nth-of-type(5) > td,
+tr:nth-of-type(6) > td,
+tr:nth-of-type(7) > td {
+    background-color: white;
+}
+
+.listado {
+    width: 110%;
+    padding: 1em;
+}
+
+.tit_rec {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.recibos{
+    width: 1200px;
+    background: #9AD2FB;
+    padding: 80px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+}
+
+.opc_1 form button,
+.opc_1 form input,
+.opc_1 form textarea {
+    width: 95%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.recibos button {
+    width: 15%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lis_recibo {
+    width: 90%;
+    padding: 1em;
+}
+
+.opc_1 form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.facturas{
+    width: 1200px;
+    background: #9AD2FB;
+    padding: 80px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+}
+
+.tit_fact {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.facturas button {
+    width: 15%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lis_factura {
+    width: 100%;
+    padding: 1em;
+}
+
+.pagperso{
+    width: 1200px;
+    background: #9AD2FB;
+    padding: 80px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    color: #4F4D2B;
+}
+
+.tit_pagpers {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.pagperso button {
+    width: 15%;
+    padding: .9em;
+    border: none;
+    border-bottom: 10px;
+    font-family: 'Calibri';
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lis_pagperso {
+    width: 100%;
+    padding: 1em;
+}
